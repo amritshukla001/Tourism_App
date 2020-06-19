@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/text"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:fontFamily="@font/felipa"
+        android:includeFontPadding="true"
+        android:text="Welcome To The World Of Mounatains-Experience SIKKIM"
+
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:fontFamily="@font/felipa"
+        android:text="Tourist Places" />
+
+    <Button
+        android:id="@+id/gov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:fontFamily="@font/felipa"
+        android:text="Go to the Sikkim Tourism Website" />
+
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:fontFamily="@font/felipa"
+        android:text="Rate Us" />
+
+
+
+</RelativeLayout>
